@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pb = findViewById(R.id.pbar);
-        views = findViewById(R.id.webview);
+        views = findViewById(R.id.webView);
         views.loadUrl("https://www.google.com/");
         views.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int p) {
